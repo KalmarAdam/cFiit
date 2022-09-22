@@ -1,0 +1,3 @@
+/Users/AdamK/CLionProjects/cFiit/Kalmar1/cmake-build-debug/CMakeFiles/Kalmar1.dir
+/Users/AdamK/CLionProjects/cFiit/Kalmar1/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/AdamK/CLionProjects/cFiit/Kalmar1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
