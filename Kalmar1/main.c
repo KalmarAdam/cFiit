@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 //1.1
 //int main() {
@@ -18,17 +17,14 @@
 
 //1.3
 //int main(){
-//    int num1, num2, sum, sum2;
+//    int num1, num2;
 //
 //    printf("Napiste dve cele cisla: ");
 //
 //    scanf("%d %d", &num1, &num2);
 //
-//    sum = num1 + num2;
-//    sum2 = num1 * num2;
-//
-//    printf("Sucet nacitanych cisel je: %d \n",sum);
-//    printf("Sucin nacitanych cisel je: %d \n",sum2);
+//    printf("Sucet nacitanych cisel je: %d \n",num1 + num2);
+//    printf("Sucin nacitanych cisel je: %d \n",num1 * num2);
 //    return 0;
 //}
 

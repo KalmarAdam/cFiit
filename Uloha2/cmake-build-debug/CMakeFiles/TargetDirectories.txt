@@ -1,0 +1,3 @@
+/Users/AdamK/CLionProjects/cFiit/Uloha2/cmake-build-debug/CMakeFiles/Uloha2.dir
+/Users/AdamK/CLionProjects/cFiit/Uloha2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/AdamK/CLionProjects/cFiit/Uloha2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
