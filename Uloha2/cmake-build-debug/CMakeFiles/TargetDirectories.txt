@@ -1,3 +1,10 @@
-/Users/AdamK/CLionProjects/cFiit/Uloha2/cmake-build-debug/CMakeFiles/Uloha2.dir
+/Users/AdamK/CLionProjects/cFiit/Uloha2/cmake-build-debug/CMakeFiles/120816_2022_2_1.dir
+/Users/AdamK/CLionProjects/cFiit/Uloha2/cmake-build-debug/CMakeFiles/120816_2022_2_2.dir
+/Users/AdamK/CLionProjects/cFiit/Uloha2/cmake-build-debug/CMakeFiles/120816_2022_2_3.dir
+/Users/AdamK/CLionProjects/cFiit/Uloha2/cmake-build-debug/CMakeFiles/120816_2022_2_4.dir
+/Users/AdamK/CLionProjects/cFiit/Uloha2/cmake-build-debug/CMakeFiles/120816_2022_2_5.dir
+/Users/AdamK/CLionProjects/cFiit/Uloha2/cmake-build-debug/CMakeFiles/120816_2022_2_6.dir
+/Users/AdamK/CLionProjects/cFiit/Uloha2/cmake-build-debug/CMakeFiles/120816_2022_2_7.dir
+/Users/AdamK/CLionProjects/cFiit/Uloha2/cmake-build-debug/CMakeFiles/120816_2022_2_8.dir
 /Users/AdamK/CLionProjects/cFiit/Uloha2/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/AdamK/CLionProjects/cFiit/Uloha2/cmake-build-debug/CMakeFiles/rebuild_cache.dir

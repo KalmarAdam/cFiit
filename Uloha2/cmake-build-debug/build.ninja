@@ -38,38 +38,252 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = /Users/AdamK/CLionProjects/cFiit/Uloha2/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target Uloha2
+# Object build statements for EXECUTABLE target 120816_2022_2_1
 
 
 #############################################
-# Order-only phony target for Uloha2
+# Order-only phony target for 120816_2022_2_1
 
-build cmake_object_order_depends_target_Uloha2: phony || CMakeFiles/Uloha2.dir
+build cmake_object_order_depends_target_120816_2022_2_1: phony || CMakeFiles/120816_2022_2_1.dir
 
-build CMakeFiles/Uloha2.dir/main.c.o: C_COMPILER__Uloha2_Debug /Users/AdamK/CLionProjects/cFiit/Uloha2/main.c || cmake_object_order_depends_target_Uloha2
-  DEP_FILE = CMakeFiles/Uloha2.dir/main.c.o.d
+build CMakeFiles/120816_2022_2_1.dir/120816_2022_2_1.c.o: C_COMPILER__120816_2022_2_1_Debug /Users/AdamK/CLionProjects/cFiit/Uloha2/120816_2022_2_1.c || cmake_object_order_depends_target_120816_2022_2_1
+  DEP_FILE = CMakeFiles/120816_2022_2_1.dir/120816_2022_2_1.c.o.d
   FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu90
-  OBJECT_DIR = CMakeFiles/Uloha2.dir
-  OBJECT_FILE_DIR = CMakeFiles/Uloha2.dir
-  TARGET_COMPILE_PDB = CMakeFiles/Uloha2.dir/
-  TARGET_PDB = Uloha2.pdb
+  OBJECT_DIR = CMakeFiles/120816_2022_2_1.dir
+  OBJECT_FILE_DIR = CMakeFiles/120816_2022_2_1.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target Uloha2
+# Link build statements for EXECUTABLE target 120816_2022_2_1
 
 
 #############################################
-# Link the executable Uloha2
+# Link the executable 120816_2022_2_1
 
-build Uloha2: C_EXECUTABLE_LINKER__Uloha2_Debug CMakeFiles/Uloha2.dir/main.c.o
+build 120816_2022_2_1: C_EXECUTABLE_LINKER__120816_2022_2_1_Debug CMakeFiles/120816_2022_2_1.dir/120816_2022_2_1.c.o
   FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
-  OBJECT_DIR = CMakeFiles/Uloha2.dir
+  OBJECT_DIR = CMakeFiles/120816_2022_2_1.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/Uloha2.dir/
-  TARGET_FILE = Uloha2
-  TARGET_PDB = Uloha2.pdb
+  TARGET_FILE = 120816_2022_2_1
+  TARGET_PDB = 120816_2022_2_1.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 120816_2022_2_2
+
+
+#############################################
+# Order-only phony target for 120816_2022_2_2
+
+build cmake_object_order_depends_target_120816_2022_2_2: phony || CMakeFiles/120816_2022_2_2.dir
+
+build CMakeFiles/120816_2022_2_2.dir/120816_2022_2_2.c.o: C_COMPILER__120816_2022_2_2_Debug /Users/AdamK/CLionProjects/cFiit/Uloha2/120816_2022_2_2.c || cmake_object_order_depends_target_120816_2022_2_2
+  DEP_FILE = CMakeFiles/120816_2022_2_2.dir/120816_2022_2_2.c.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu90
+  OBJECT_DIR = CMakeFiles/120816_2022_2_2.dir
+  OBJECT_FILE_DIR = CMakeFiles/120816_2022_2_2.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 120816_2022_2_2
+
+
+#############################################
+# Link the executable 120816_2022_2_2
+
+build 120816_2022_2_2: C_EXECUTABLE_LINKER__120816_2022_2_2_Debug CMakeFiles/120816_2022_2_2.dir/120816_2022_2_2.c.o
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/120816_2022_2_2.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 120816_2022_2_2
+  TARGET_PDB = 120816_2022_2_2.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 120816_2022_2_3
+
+
+#############################################
+# Order-only phony target for 120816_2022_2_3
+
+build cmake_object_order_depends_target_120816_2022_2_3: phony || CMakeFiles/120816_2022_2_3.dir
+
+build CMakeFiles/120816_2022_2_3.dir/120816_2022_2_3.c.o: C_COMPILER__120816_2022_2_3_Debug /Users/AdamK/CLionProjects/cFiit/Uloha2/120816_2022_2_3.c || cmake_object_order_depends_target_120816_2022_2_3
+  DEP_FILE = CMakeFiles/120816_2022_2_3.dir/120816_2022_2_3.c.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu90
+  OBJECT_DIR = CMakeFiles/120816_2022_2_3.dir
+  OBJECT_FILE_DIR = CMakeFiles/120816_2022_2_3.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 120816_2022_2_3
+
+
+#############################################
+# Link the executable 120816_2022_2_3
+
+build 120816_2022_2_3: C_EXECUTABLE_LINKER__120816_2022_2_3_Debug CMakeFiles/120816_2022_2_3.dir/120816_2022_2_3.c.o
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/120816_2022_2_3.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 120816_2022_2_3
+  TARGET_PDB = 120816_2022_2_3.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 120816_2022_2_4
+
+
+#############################################
+# Order-only phony target for 120816_2022_2_4
+
+build cmake_object_order_depends_target_120816_2022_2_4: phony || CMakeFiles/120816_2022_2_4.dir
+
+build CMakeFiles/120816_2022_2_4.dir/120816_2022_2_4.c.o: C_COMPILER__120816_2022_2_4_Debug /Users/AdamK/CLionProjects/cFiit/Uloha2/120816_2022_2_4.c || cmake_object_order_depends_target_120816_2022_2_4
+  DEP_FILE = CMakeFiles/120816_2022_2_4.dir/120816_2022_2_4.c.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu90
+  OBJECT_DIR = CMakeFiles/120816_2022_2_4.dir
+  OBJECT_FILE_DIR = CMakeFiles/120816_2022_2_4.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 120816_2022_2_4
+
+
+#############################################
+# Link the executable 120816_2022_2_4
+
+build 120816_2022_2_4: C_EXECUTABLE_LINKER__120816_2022_2_4_Debug CMakeFiles/120816_2022_2_4.dir/120816_2022_2_4.c.o
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/120816_2022_2_4.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 120816_2022_2_4
+  TARGET_PDB = 120816_2022_2_4.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 120816_2022_2_5
+
+
+#############################################
+# Order-only phony target for 120816_2022_2_5
+
+build cmake_object_order_depends_target_120816_2022_2_5: phony || CMakeFiles/120816_2022_2_5.dir
+
+build CMakeFiles/120816_2022_2_5.dir/120816_2022_2_5.c.o: C_COMPILER__120816_2022_2_5_Debug /Users/AdamK/CLionProjects/cFiit/Uloha2/120816_2022_2_5.c || cmake_object_order_depends_target_120816_2022_2_5
+  DEP_FILE = CMakeFiles/120816_2022_2_5.dir/120816_2022_2_5.c.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu90
+  OBJECT_DIR = CMakeFiles/120816_2022_2_5.dir
+  OBJECT_FILE_DIR = CMakeFiles/120816_2022_2_5.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 120816_2022_2_5
+
+
+#############################################
+# Link the executable 120816_2022_2_5
+
+build 120816_2022_2_5: C_EXECUTABLE_LINKER__120816_2022_2_5_Debug CMakeFiles/120816_2022_2_5.dir/120816_2022_2_5.c.o
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/120816_2022_2_5.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 120816_2022_2_5
+  TARGET_PDB = 120816_2022_2_5.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 120816_2022_2_6
+
+
+#############################################
+# Order-only phony target for 120816_2022_2_6
+
+build cmake_object_order_depends_target_120816_2022_2_6: phony || CMakeFiles/120816_2022_2_6.dir
+
+build CMakeFiles/120816_2022_2_6.dir/120816_2022_2_6.c.o: C_COMPILER__120816_2022_2_6_Debug /Users/AdamK/CLionProjects/cFiit/Uloha2/120816_2022_2_6.c || cmake_object_order_depends_target_120816_2022_2_6
+  DEP_FILE = CMakeFiles/120816_2022_2_6.dir/120816_2022_2_6.c.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu90
+  OBJECT_DIR = CMakeFiles/120816_2022_2_6.dir
+  OBJECT_FILE_DIR = CMakeFiles/120816_2022_2_6.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 120816_2022_2_6
+
+
+#############################################
+# Link the executable 120816_2022_2_6
+
+build 120816_2022_2_6: C_EXECUTABLE_LINKER__120816_2022_2_6_Debug CMakeFiles/120816_2022_2_6.dir/120816_2022_2_6.c.o
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/120816_2022_2_6.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 120816_2022_2_6
+  TARGET_PDB = 120816_2022_2_6.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 120816_2022_2_7
+
+
+#############################################
+# Order-only phony target for 120816_2022_2_7
+
+build cmake_object_order_depends_target_120816_2022_2_7: phony || CMakeFiles/120816_2022_2_7.dir
+
+build CMakeFiles/120816_2022_2_7.dir/120816_2022_2_7.c.o: C_COMPILER__120816_2022_2_7_Debug /Users/AdamK/CLionProjects/cFiit/Uloha2/120816_2022_2_7.c || cmake_object_order_depends_target_120816_2022_2_7
+  DEP_FILE = CMakeFiles/120816_2022_2_7.dir/120816_2022_2_7.c.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu90
+  OBJECT_DIR = CMakeFiles/120816_2022_2_7.dir
+  OBJECT_FILE_DIR = CMakeFiles/120816_2022_2_7.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 120816_2022_2_7
+
+
+#############################################
+# Link the executable 120816_2022_2_7
+
+build 120816_2022_2_7: C_EXECUTABLE_LINKER__120816_2022_2_7_Debug CMakeFiles/120816_2022_2_7.dir/120816_2022_2_7.c.o
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/120816_2022_2_7.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 120816_2022_2_7
+  TARGET_PDB = 120816_2022_2_7.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 120816_2022_2_8
+
+
+#############################################
+# Order-only phony target for 120816_2022_2_8
+
+build cmake_object_order_depends_target_120816_2022_2_8: phony || CMakeFiles/120816_2022_2_8.dir
+
+build CMakeFiles/120816_2022_2_8.dir/120816_2022_2_8.c.o: C_COMPILER__120816_2022_2_8_Debug /Users/AdamK/CLionProjects/cFiit/Uloha2/120816_2022_2_8.c || cmake_object_order_depends_target_120816_2022_2_8
+  DEP_FILE = CMakeFiles/120816_2022_2_8.dir/120816_2022_2_8.c.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu90
+  OBJECT_DIR = CMakeFiles/120816_2022_2_8.dir
+  OBJECT_FILE_DIR = CMakeFiles/120816_2022_2_8.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 120816_2022_2_8
+
+
+#############################################
+# Link the executable 120816_2022_2_8
+
+build 120816_2022_2_8: C_EXECUTABLE_LINKER__120816_2022_2_8_Debug CMakeFiles/120816_2022_2_8.dir/120816_2022_2_8.c.o
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/120816_2022_2_8.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 120816_2022_2_8
+  TARGET_PDB = 120816_2022_2_8.dbg
 
 
 #############################################
@@ -105,7 +319,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/AdamK/CLionProjects/cFiit/Uloha2/cmake-build-debug
 
-build all: phony Uloha2
+build all: phony 120816_2022_2_1 120816_2022_2_2 120816_2022_2_3 120816_2022_2_4 120816_2022_2_5 120816_2022_2_6 120816_2022_2_7 120816_2022_2_8
 
 # =============================================================================
 # Built-in targets
@@ -114,14 +328,14 @@ build all: phony Uloha2
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | ../CMakeLists.txt /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCCompiler.cmake.in /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCCompilerABI.c /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCInformation.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCompilerIdDetection.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeDetermineCCompiler.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeDetermineCompileFeatures.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeDetermineCompiler.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeDetermineCompilerABI.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeDetermineCompilerId.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeDetermineSystem.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeFindBinUtils.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeParseImplicitIncludeInfo.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeParseImplicitLinkInfo.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeParseLibraryArchitecture.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystem.cmake.in /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeTestCCompiler.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeTestCompilerCommon.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/ADSP-DetermineCompiler.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/ARMCC-DetermineCompiler.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/ARMClang-DetermineCompiler.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-C.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-DetermineCompiler.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Borland-DetermineCompiler.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Bruce-C-DetermineCompiler.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang-DetermineCompiler.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Compaq-C-DetermineCompiler.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Cray-DetermineCompiler.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GHS-DetermineCompiler.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU-C-DetermineCompiler.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/HP-C-DetermineCompiler.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/IAR-DetermineCompiler.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Intel-DetermineCompiler.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/LCC-C-DetermineCompiler.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/MSVC-DetermineCompiler.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/NVHPC-DetermineCompiler.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/PGI-DetermineCompiler.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/PathScale-DetermineCompiler.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/SCO-DetermineCompiler.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/SDCC-C-DetermineCompiler.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/SunPro-C-DetermineCompiler.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/TI-DetermineCompiler.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Watcom-DetermineCompiler.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/XL-C-DetermineCompiler.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/XLClang-C-DetermineCompiler.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/zOS-C-DetermineCompiler.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Internal/FeatureTesting.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-C.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-C.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | ../CMakeLists.txt /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCInformation.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-C.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-C.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-C.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build ../CMakeLists.txt /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCCompiler.cmake.in /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCCompilerABI.c /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCInformation.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCompilerIdDetection.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeDetermineCCompiler.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeDetermineCompileFeatures.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeDetermineCompiler.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeDetermineCompilerABI.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeDetermineCompilerId.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeDetermineSystem.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeFindBinUtils.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeParseImplicitIncludeInfo.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeParseImplicitLinkInfo.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeParseLibraryArchitecture.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystem.cmake.in /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeTestCCompiler.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeTestCompilerCommon.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/ADSP-DetermineCompiler.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/ARMCC-DetermineCompiler.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/ARMClang-DetermineCompiler.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-C.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-DetermineCompiler.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Borland-DetermineCompiler.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Bruce-C-DetermineCompiler.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang-DetermineCompiler.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Compaq-C-DetermineCompiler.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Cray-DetermineCompiler.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GHS-DetermineCompiler.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU-C-DetermineCompiler.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/HP-C-DetermineCompiler.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/IAR-DetermineCompiler.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Intel-DetermineCompiler.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/LCC-C-DetermineCompiler.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/MSVC-DetermineCompiler.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/NVHPC-DetermineCompiler.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/PGI-DetermineCompiler.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/PathScale-DetermineCompiler.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/SCO-DetermineCompiler.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/SDCC-C-DetermineCompiler.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/SunPro-C-DetermineCompiler.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/TI-DetermineCompiler.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Watcom-DetermineCompiler.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/XL-C-DetermineCompiler.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/XLClang-C-DetermineCompiler.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/zOS-C-DetermineCompiler.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Internal/FeatureTesting.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-C.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-C.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake: phony
+build ../CMakeLists.txt /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCInformation.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-C.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-C.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-C.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake: phony
 
 
 #############################################

@@ -1,0 +1,123 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Uloha2",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "120816_2022_2_1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-120816_2022_2_1-Debug-d9cb6dc7d08f2e43f0f1.json",
+					"name" : "120816_2022_2_1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "120816_2022_2_2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-120816_2022_2_2-Debug-118059d4483728c3117d.json",
+					"name" : "120816_2022_2_2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "120816_2022_2_3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-120816_2022_2_3-Debug-332408fb463a92e2a8e7.json",
+					"name" : "120816_2022_2_3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "120816_2022_2_4::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-120816_2022_2_4-Debug-bee2ee58032d543b6ece.json",
+					"name" : "120816_2022_2_4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "120816_2022_2_5::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-120816_2022_2_5-Debug-df0488aeea7cbf5609ae.json",
+					"name" : "120816_2022_2_5",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "120816_2022_2_6::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-120816_2022_2_6-Debug-0ed45b202e990783c316.json",
+					"name" : "120816_2022_2_6",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "120816_2022_2_7::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-120816_2022_2_7-Debug-6e6afd3feee2a854cbc2.json",
+					"name" : "120816_2022_2_7",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "120816_2022_2_8::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-120816_2022_2_8-Debug-5054381a493bb1f38052.json",
+					"name" : "120816_2022_2_8",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/AdamK/CLionProjects/cFiit/Uloha2/cmake-build-debug",
+		"source" : "/Users/AdamK/CLionProjects/cFiit/Uloha2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
