@@ -8,9 +8,7 @@ int main(){
 
     scanf("%lf", &num);
 
-    printf("%f %.0f", num, num);
-    double x = 0;
-    printf("%.1f", trunc(num * 10.0) / 10.0);
+    printf("%.0f %.0f \n", trunc(num * 10.0 / 10.0), num);
 
     return 0;
 }
