@@ -1,0 +1,141 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "120816_2022_3",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "120816_2022_3_1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-120816_2022_3_1-Debug-20fd9d68289b914d5ffd.json",
+					"name" : "120816_2022_3_1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "120816_2022_3_10::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-120816_2022_3_10-Debug-98debf4da1a7448b4551.json",
+					"name" : "120816_2022_3_10",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "120816_2022_3_2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-120816_2022_3_2-Debug-4b678541e64c7592eaf7.json",
+					"name" : "120816_2022_3_2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "120816_2022_3_3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-120816_2022_3_3-Debug-2b4a9a0714ff96ad1d2d.json",
+					"name" : "120816_2022_3_3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "120816_2022_3_4::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-120816_2022_3_4-Debug-0f9a53376a68c734b647.json",
+					"name" : "120816_2022_3_4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "120816_2022_3_5::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-120816_2022_3_5-Debug-7ca86aaa0ee602ec77e1.json",
+					"name" : "120816_2022_3_5",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "120816_2022_3_6::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-120816_2022_3_6-Debug-41a15e96f754fb504cca.json",
+					"name" : "120816_2022_3_6",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "120816_2022_3_7::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-120816_2022_3_7-Debug-5bd9ff39a0e721d48125.json",
+					"name" : "120816_2022_3_7",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "120816_2022_3_8::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-120816_2022_3_8-Debug-95480522e386458e4d6b.json",
+					"name" : "120816_2022_3_8",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "120816_2022_3_9::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-120816_2022_3_9-Debug-082a7991b34f36a175eb.json",
+					"name" : "120816_2022_3_9",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/AdamK/CLionProjects/cFiit/120816_2022_3/cmake-build-debug",
+		"source" : "/Users/AdamK/CLionProjects/cFiit/120816_2022_3"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

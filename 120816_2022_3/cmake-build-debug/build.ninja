@@ -1,0 +1,418 @@
+## This file contains all the build statements describing the
+# compilation DAG.
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# 
+# Which is the root file.
+# =============================================================================
+
+# =============================================================================
+# Project: 120816_2022_3
+# Configurations: Debug
+# =============================================================================
+
+#############################################
+# Minimal version of Ninja required by this file
+
+ninja_required_version = 1.5
+
+
+#############################################
+# Set configuration variable for custom commands.
+
+CONFIGURATION = Debug
+# =============================================================================
+# Include auxiliary files.
+
+
+#############################################
+# Include rules file.
+
+include CMakeFiles/rules.ninja
+
+# =============================================================================
+
+#############################################
+# Logical path to working directory; prefix for absolute paths.
+
+cmake_ninja_workdir = /Users/AdamK/CLionProjects/cFiit/120816_2022_3/cmake-build-debug/
+# =============================================================================
+# Object build statements for EXECUTABLE target 120816_2022_3_1
+
+
+#############################################
+# Order-only phony target for 120816_2022_3_1
+
+build cmake_object_order_depends_target_120816_2022_3_1: phony || CMakeFiles/120816_2022_3_1.dir
+
+build CMakeFiles/120816_2022_3_1.dir/120816_2022_3_1.c.o: C_COMPILER__120816_2022_3_1_Debug /Users/AdamK/CLionProjects/cFiit/120816_2022_3/120816_2022_3_1.c || cmake_object_order_depends_target_120816_2022_3_1
+  DEP_FILE = CMakeFiles/120816_2022_3_1.dir/120816_2022_3_1.c.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu90
+  OBJECT_DIR = CMakeFiles/120816_2022_3_1.dir
+  OBJECT_FILE_DIR = CMakeFiles/120816_2022_3_1.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 120816_2022_3_1
+
+
+#############################################
+# Link the executable 120816_2022_3_1
+
+build 120816_2022_3_1: C_EXECUTABLE_LINKER__120816_2022_3_1_Debug CMakeFiles/120816_2022_3_1.dir/120816_2022_3_1.c.o
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/120816_2022_3_1.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 120816_2022_3_1
+  TARGET_PDB = 120816_2022_3_1.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 120816_2022_3_2
+
+
+#############################################
+# Order-only phony target for 120816_2022_3_2
+
+build cmake_object_order_depends_target_120816_2022_3_2: phony || CMakeFiles/120816_2022_3_2.dir
+
+build CMakeFiles/120816_2022_3_2.dir/120816_2022_3_2.c.o: C_COMPILER__120816_2022_3_2_Debug /Users/AdamK/CLionProjects/cFiit/120816_2022_3/120816_2022_3_2.c || cmake_object_order_depends_target_120816_2022_3_2
+  DEP_FILE = CMakeFiles/120816_2022_3_2.dir/120816_2022_3_2.c.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu90
+  OBJECT_DIR = CMakeFiles/120816_2022_3_2.dir
+  OBJECT_FILE_DIR = CMakeFiles/120816_2022_3_2.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 120816_2022_3_2
+
+
+#############################################
+# Link the executable 120816_2022_3_2
+
+build 120816_2022_3_2: C_EXECUTABLE_LINKER__120816_2022_3_2_Debug CMakeFiles/120816_2022_3_2.dir/120816_2022_3_2.c.o
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/120816_2022_3_2.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 120816_2022_3_2
+  TARGET_PDB = 120816_2022_3_2.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 120816_2022_3_3
+
+
+#############################################
+# Order-only phony target for 120816_2022_3_3
+
+build cmake_object_order_depends_target_120816_2022_3_3: phony || CMakeFiles/120816_2022_3_3.dir
+
+build CMakeFiles/120816_2022_3_3.dir/120816_2022_3_3.c.o: C_COMPILER__120816_2022_3_3_Debug /Users/AdamK/CLionProjects/cFiit/120816_2022_3/120816_2022_3_3.c || cmake_object_order_depends_target_120816_2022_3_3
+  DEP_FILE = CMakeFiles/120816_2022_3_3.dir/120816_2022_3_3.c.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu90
+  OBJECT_DIR = CMakeFiles/120816_2022_3_3.dir
+  OBJECT_FILE_DIR = CMakeFiles/120816_2022_3_3.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 120816_2022_3_3
+
+
+#############################################
+# Link the executable 120816_2022_3_3
+
+build 120816_2022_3_3: C_EXECUTABLE_LINKER__120816_2022_3_3_Debug CMakeFiles/120816_2022_3_3.dir/120816_2022_3_3.c.o
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/120816_2022_3_3.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 120816_2022_3_3
+  TARGET_PDB = 120816_2022_3_3.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 120816_2022_3_4
+
+
+#############################################
+# Order-only phony target for 120816_2022_3_4
+
+build cmake_object_order_depends_target_120816_2022_3_4: phony || CMakeFiles/120816_2022_3_4.dir
+
+build CMakeFiles/120816_2022_3_4.dir/120816_2022_3_4.c.o: C_COMPILER__120816_2022_3_4_Debug /Users/AdamK/CLionProjects/cFiit/120816_2022_3/120816_2022_3_4.c || cmake_object_order_depends_target_120816_2022_3_4
+  DEP_FILE = CMakeFiles/120816_2022_3_4.dir/120816_2022_3_4.c.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu90
+  OBJECT_DIR = CMakeFiles/120816_2022_3_4.dir
+  OBJECT_FILE_DIR = CMakeFiles/120816_2022_3_4.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 120816_2022_3_4
+
+
+#############################################
+# Link the executable 120816_2022_3_4
+
+build 120816_2022_3_4: C_EXECUTABLE_LINKER__120816_2022_3_4_Debug CMakeFiles/120816_2022_3_4.dir/120816_2022_3_4.c.o
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/120816_2022_3_4.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 120816_2022_3_4
+  TARGET_PDB = 120816_2022_3_4.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 120816_2022_3_5
+
+
+#############################################
+# Order-only phony target for 120816_2022_3_5
+
+build cmake_object_order_depends_target_120816_2022_3_5: phony || CMakeFiles/120816_2022_3_5.dir
+
+build CMakeFiles/120816_2022_3_5.dir/120816_2022_3_5.c.o: C_COMPILER__120816_2022_3_5_Debug /Users/AdamK/CLionProjects/cFiit/120816_2022_3/120816_2022_3_5.c || cmake_object_order_depends_target_120816_2022_3_5
+  DEP_FILE = CMakeFiles/120816_2022_3_5.dir/120816_2022_3_5.c.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu90
+  OBJECT_DIR = CMakeFiles/120816_2022_3_5.dir
+  OBJECT_FILE_DIR = CMakeFiles/120816_2022_3_5.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 120816_2022_3_5
+
+
+#############################################
+# Link the executable 120816_2022_3_5
+
+build 120816_2022_3_5: C_EXECUTABLE_LINKER__120816_2022_3_5_Debug CMakeFiles/120816_2022_3_5.dir/120816_2022_3_5.c.o
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/120816_2022_3_5.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 120816_2022_3_5
+  TARGET_PDB = 120816_2022_3_5.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 120816_2022_3_6
+
+
+#############################################
+# Order-only phony target for 120816_2022_3_6
+
+build cmake_object_order_depends_target_120816_2022_3_6: phony || CMakeFiles/120816_2022_3_6.dir
+
+build CMakeFiles/120816_2022_3_6.dir/120816_2022_3_6.c.o: C_COMPILER__120816_2022_3_6_Debug /Users/AdamK/CLionProjects/cFiit/120816_2022_3/120816_2022_3_6.c || cmake_object_order_depends_target_120816_2022_3_6
+  DEP_FILE = CMakeFiles/120816_2022_3_6.dir/120816_2022_3_6.c.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu90
+  OBJECT_DIR = CMakeFiles/120816_2022_3_6.dir
+  OBJECT_FILE_DIR = CMakeFiles/120816_2022_3_6.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 120816_2022_3_6
+
+
+#############################################
+# Link the executable 120816_2022_3_6
+
+build 120816_2022_3_6: C_EXECUTABLE_LINKER__120816_2022_3_6_Debug CMakeFiles/120816_2022_3_6.dir/120816_2022_3_6.c.o
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/120816_2022_3_6.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 120816_2022_3_6
+  TARGET_PDB = 120816_2022_3_6.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 120816_2022_3_7
+
+
+#############################################
+# Order-only phony target for 120816_2022_3_7
+
+build cmake_object_order_depends_target_120816_2022_3_7: phony || CMakeFiles/120816_2022_3_7.dir
+
+build CMakeFiles/120816_2022_3_7.dir/120816_2022_3_7.c.o: C_COMPILER__120816_2022_3_7_Debug /Users/AdamK/CLionProjects/cFiit/120816_2022_3/120816_2022_3_7.c || cmake_object_order_depends_target_120816_2022_3_7
+  DEP_FILE = CMakeFiles/120816_2022_3_7.dir/120816_2022_3_7.c.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu90
+  OBJECT_DIR = CMakeFiles/120816_2022_3_7.dir
+  OBJECT_FILE_DIR = CMakeFiles/120816_2022_3_7.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 120816_2022_3_7
+
+
+#############################################
+# Link the executable 120816_2022_3_7
+
+build 120816_2022_3_7: C_EXECUTABLE_LINKER__120816_2022_3_7_Debug CMakeFiles/120816_2022_3_7.dir/120816_2022_3_7.c.o
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/120816_2022_3_7.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 120816_2022_3_7
+  TARGET_PDB = 120816_2022_3_7.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 120816_2022_3_8
+
+
+#############################################
+# Order-only phony target for 120816_2022_3_8
+
+build cmake_object_order_depends_target_120816_2022_3_8: phony || CMakeFiles/120816_2022_3_8.dir
+
+build CMakeFiles/120816_2022_3_8.dir/120816_2022_3_8.c.o: C_COMPILER__120816_2022_3_8_Debug /Users/AdamK/CLionProjects/cFiit/120816_2022_3/120816_2022_3_8.c || cmake_object_order_depends_target_120816_2022_3_8
+  DEP_FILE = CMakeFiles/120816_2022_3_8.dir/120816_2022_3_8.c.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu90
+  OBJECT_DIR = CMakeFiles/120816_2022_3_8.dir
+  OBJECT_FILE_DIR = CMakeFiles/120816_2022_3_8.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 120816_2022_3_8
+
+
+#############################################
+# Link the executable 120816_2022_3_8
+
+build 120816_2022_3_8: C_EXECUTABLE_LINKER__120816_2022_3_8_Debug CMakeFiles/120816_2022_3_8.dir/120816_2022_3_8.c.o
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/120816_2022_3_8.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 120816_2022_3_8
+  TARGET_PDB = 120816_2022_3_8.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 120816_2022_3_9
+
+
+#############################################
+# Order-only phony target for 120816_2022_3_9
+
+build cmake_object_order_depends_target_120816_2022_3_9: phony || CMakeFiles/120816_2022_3_9.dir
+
+build CMakeFiles/120816_2022_3_9.dir/120816_2022_3_9.c.o: C_COMPILER__120816_2022_3_9_Debug /Users/AdamK/CLionProjects/cFiit/120816_2022_3/120816_2022_3_9.c || cmake_object_order_depends_target_120816_2022_3_9
+  DEP_FILE = CMakeFiles/120816_2022_3_9.dir/120816_2022_3_9.c.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu90
+  OBJECT_DIR = CMakeFiles/120816_2022_3_9.dir
+  OBJECT_FILE_DIR = CMakeFiles/120816_2022_3_9.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 120816_2022_3_9
+
+
+#############################################
+# Link the executable 120816_2022_3_9
+
+build 120816_2022_3_9: C_EXECUTABLE_LINKER__120816_2022_3_9_Debug CMakeFiles/120816_2022_3_9.dir/120816_2022_3_9.c.o
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/120816_2022_3_9.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 120816_2022_3_9
+  TARGET_PDB = 120816_2022_3_9.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 120816_2022_3_10
+
+
+#############################################
+# Order-only phony target for 120816_2022_3_10
+
+build cmake_object_order_depends_target_120816_2022_3_10: phony || CMakeFiles/120816_2022_3_10.dir
+
+build CMakeFiles/120816_2022_3_10.dir/120816_2022_3_10.c.o: C_COMPILER__120816_2022_3_10_Debug /Users/AdamK/CLionProjects/cFiit/120816_2022_3/120816_2022_3_10.c || cmake_object_order_depends_target_120816_2022_3_10
+  DEP_FILE = CMakeFiles/120816_2022_3_10.dir/120816_2022_3_10.c.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu90
+  OBJECT_DIR = CMakeFiles/120816_2022_3_10.dir
+  OBJECT_FILE_DIR = CMakeFiles/120816_2022_3_10.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 120816_2022_3_10
+
+
+#############################################
+# Link the executable 120816_2022_3_10
+
+build 120816_2022_3_10: C_EXECUTABLE_LINKER__120816_2022_3_10_Debug CMakeFiles/120816_2022_3_10.dir/120816_2022_3_10.c.o
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/120816_2022_3_10.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 120816_2022_3_10
+  TARGET_PDB = 120816_2022_3_10.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/AdamK/CLionProjects/cFiit/120816_2022_3/cmake-build-debug && "/Users/AdamK/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build edit_cache: phony CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/AdamK/CLionProjects/cFiit/120816_2022_3/cmake-build-debug && "/Users/AdamK/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/bin/cmake" --regenerate-during-build -S/Users/AdamK/CLionProjects/cFiit/120816_2022_3 -B/Users/AdamK/CLionProjects/cFiit/120816_2022_3/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build rebuild_cache: phony CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Target aliases.
+
+# =============================================================================
+# Folder targets.
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/AdamK/CLionProjects/cFiit/120816_2022_3/cmake-build-debug
+
+build all: phony 120816_2022_3_1 120816_2022_3_2 120816_2022_3_3 120816_2022_3_4 120816_2022_3_5 120816_2022_3_6 120816_2022_3_7 120816_2022_3_8 120816_2022_3_9 120816_2022_3_10
+
+# =============================================================================
+# Built-in targets
+
+
+#############################################
+# Re-run CMake if any of its inputs changed.
+
+build build.ninja: RERUN_CMAKE | ../CMakeLists.txt /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCInformation.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-C.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-C.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-C.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake
+  pool = console
+
+
+#############################################
+# A missing CMake input file is not an error.
+
+build ../CMakeLists.txt /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCInformation.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-C.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-C.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-C.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Users/AdamK/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake: phony
+
+
+#############################################
+# Clean all the built files.
+
+build clean: CLEAN
+
+
+#############################################
+# Print all primary targets available.
+
+build help: HELP
+
+
+#############################################
+# Make the all target the default.
+
+default all

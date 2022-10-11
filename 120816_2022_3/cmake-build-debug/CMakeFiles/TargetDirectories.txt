@@ -1,0 +1,12 @@
+/Users/AdamK/CLionProjects/cFiit/120816_2022_3/cmake-build-debug/CMakeFiles/120816_2022_3_1.dir
+/Users/AdamK/CLionProjects/cFiit/120816_2022_3/cmake-build-debug/CMakeFiles/120816_2022_3_2.dir
+/Users/AdamK/CLionProjects/cFiit/120816_2022_3/cmake-build-debug/CMakeFiles/120816_2022_3_3.dir
+/Users/AdamK/CLionProjects/cFiit/120816_2022_3/cmake-build-debug/CMakeFiles/120816_2022_3_4.dir
+/Users/AdamK/CLionProjects/cFiit/120816_2022_3/cmake-build-debug/CMakeFiles/120816_2022_3_5.dir
+/Users/AdamK/CLionProjects/cFiit/120816_2022_3/cmake-build-debug/CMakeFiles/120816_2022_3_6.dir
+/Users/AdamK/CLionProjects/cFiit/120816_2022_3/cmake-build-debug/CMakeFiles/120816_2022_3_7.dir
+/Users/AdamK/CLionProjects/cFiit/120816_2022_3/cmake-build-debug/CMakeFiles/120816_2022_3_8.dir
+/Users/AdamK/CLionProjects/cFiit/120816_2022_3/cmake-build-debug/CMakeFiles/120816_2022_3_9.dir
+/Users/AdamK/CLionProjects/cFiit/120816_2022_3/cmake-build-debug/CMakeFiles/120816_2022_3_10.dir
+/Users/AdamK/CLionProjects/cFiit/120816_2022_3/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/AdamK/CLionProjects/cFiit/120816_2022_3/cmake-build-debug/CMakeFiles/rebuild_cache.dir
